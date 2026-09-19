@@ -16,7 +16,7 @@ for(int i=1;i<n;i++)
 cin>>x;
 s.insert(x);}
 for(int i=1;i<=n;i++){
-if(find(s.begin(),s.end(),i)==s.end())
+if(s.find(i)==s.end())
 {cout<<i;
 break;}
 }}
