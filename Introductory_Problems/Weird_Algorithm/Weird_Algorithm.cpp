@@ -8,9 +8,9 @@
 #include<bits/stdc++.h>
 using namespace std;
  
-vector<long long int> s;
+vector<int> s;
  
-void func(long long int n)
+void func(int n)
 {
     s.push_back(n);
  
@@ -36,7 +36,7 @@ void func(long long int n)
  
 int main()
 {
-    long long int n;
+    int n;
     cin >> n;
  
     func(n);
