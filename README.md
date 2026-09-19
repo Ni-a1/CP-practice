@@ -38,4 +38,5 @@
 
 | Problem | Category | Solutions |
 | :--- | :--- | :--- |
+| Missing Number | Introductory Problems | [ C++ ](https://github.com/Ni-a1/CP-practice/blob/main/Introductory_Problems/Missing_Number/Missing_Number.cpp) |
 | Weird Algorithm | Introductory Problems | [ C++ ](https://github.com/Ni-a1/CP-practice/blob/main/Introductory_Problems/Weird_Algorithm/Weird_Algorithm.cpp) |
