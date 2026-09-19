@@ -12,17 +12,17 @@ The second line contains n-1 numbers. Each number is distinct and between 1 and 
 Output
 Print the missing number.
 Constraints
- 
+
 2 \le n \le 2 \cdot 10^5
- 
+
 Example
 Input:
 5
 2 3 1 5
- 
+
 Output:
 4*/
- 
+
 #include<bits/stdc++.h>
 using namespace std;
 int main ()
@@ -36,9 +36,10 @@ s.insert(x);}
 int i=1;
 for(auto value:s)
 {
-if(value!=i) {cout<<i; break;}
+if(value!=i) {cout<<i; return 0;}
 i++;}
 cout<<n;
- 
- 
+return 0;
+
+
 }
