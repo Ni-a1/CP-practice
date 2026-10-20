@@ -2,19 +2,21 @@ class Solution {
 public:
     bool isHappy(int n) {
         vector<int> v;
+        return helper(n, v);
+    }
 
-        while (true) {
-            long long int sum = finddigits(n);
+    bool helper(int n, vector<int>& v) {
+        long long int sum = finddigits(n);
 
-            if (sum == 1)
-                return true;
+        if (sum == 1)
+            return true;
 
-            if (find(v.begin(), v.end(), sum) != v.end())
-                return false;
+        else if (find(v.begin(), v.end(), sum) != v.end())
+            return false;
 
-            v.push_back(sum);
-            n = sum;
-        }
+        v.push_back(sum);
+
+        return helper(sum, v);
     }
 
     long long int finddigits(int n) {
